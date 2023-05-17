@@ -19,7 +19,7 @@ https://www.newebpay.com/website/Page/download_file?name=Online%20Payment-Foregr
 
 此腳本將接收這些參數，並將其加入到要發送到支付閘道的表單中。表單中的所有數據都會被加密並經過哈希處理以確保安全性。
 
-注意：此腳本中的 `$key`、`$iv` 以及 `$mid` 需要您自行替換為您的金鑰，初始化向量和商家ID。
+注意：此腳本中的 `$key`、`$iv` 以及 `$mid` 需要您自行替換為您的金鑰，iv和商家ID。
 
 當此腳本被執行時，它會生成一個表單並自動提交到NewebPay的支付閘道。
 
